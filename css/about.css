@@ -30,7 +30,7 @@
 
 .about__link {
   font-weight: 500;
-  color: #FF8A00;
+  color: var(--orange-color);
 }
 
 .about__link:after {

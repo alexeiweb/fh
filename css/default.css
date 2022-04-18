@@ -113,5 +113,5 @@ section {
   line-height: 22px;
   text-align: center;
   text-transform: uppercase;
-  color: #FF8A00;
+  color: var(--orange-color);
 }

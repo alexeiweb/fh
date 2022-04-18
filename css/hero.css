@@ -21,7 +21,7 @@
 
 .hero__title span {
   font-size: 60px;
-  color: #FF8A00;
+  color: var(--orange-color);
 }
 
 .hero__btn {
