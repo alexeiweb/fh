@@ -1,8 +1,3 @@
-@import url(normalize.css);
-@import url(var.css);
-@import url(header.css);
-@import url(hero.css);
-
 @font-face {
   font-family: "Comfortaa";
   src: local('Comfortaa'),
@@ -66,7 +61,6 @@ body {
   box-sizing: inherit;
 }
 
-
 img {
   max-width: 100%;
   height: auto;
@@ -111,7 +105,6 @@ section {
   font-family: 'Comfortaa', sans-serif;
   font-weight: 400;
   font-size: 50px;
-  color: #000;
 }
 
 .btn-text {
