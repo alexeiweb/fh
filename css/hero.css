@@ -1,0 +1,28 @@
+.hero__wrapper {
+  display: flex;
+}
+
+.hero__left {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  padding-left: 100px;
+}
+
+.hero__title {
+  max-width: 480px;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 60px;
+  padding-top: 137px;
+  margin-bottom: 81px;
+}
+
+.hero__title span {
+  font-size: 60px;
+  color: #FF8A00;
+}
+
+.hero__btn {
+  width: 180px;
+}
