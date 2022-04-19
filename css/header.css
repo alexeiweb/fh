@@ -19,3 +19,11 @@
   left: -30px;
   background: url(../img/call.svg) no-repeat;
 }
+
+.header__burger {
+  cursor: pointer;
+}
+
+.header__burger:hover {
+  opacity: 0.6;  
+}
