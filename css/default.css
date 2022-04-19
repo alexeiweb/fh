@@ -115,10 +115,3 @@ section {
   text-transform: uppercase;
   color: var(--orange-color);
 }
-
-.hero__btn_image:hover,
-.hero__btn_image:focus,
-.contacts__btn_image:hover,
-.contacts__btn_image:focus {
-  filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.25));
-}
