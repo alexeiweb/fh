@@ -41,19 +41,30 @@
 .help__volunteer_wrapper {
   display: flex;
   gap: 20px;
+  margin-bottom: 50px;
 }
 
 .help__volunteer_title {
   font-weight: 500;
   font-size: 30px;
   line-height: 40px;
-  margin-bottom: 20px;
+  padding-left: 100px;
+  margin-bottom: 50px;
   text-align: left;
 }
 
 .help__volunteer_right {
   max-width: 580px;
   text-align: left;
+  padding-top: 30px;
+}
+
+.help__volunteer_desc {
+  margin-bottom: 20px;
+}
+
+.help__volunteer_desc:last-child {
+  margin-bottom: 0;
 }
 
 .help__conservator {
@@ -61,11 +72,38 @@
 }
 
 .help__conservator_left {
-  max-width: 480px;
+  max-width: 580px;
   padding-left: 100px;
   text-align: left;
+  padding-top: 30px;
+  margin-right: 20px;
+}
+
+.help__conservator_title {
+  margin-bottom: 20px;
+}
+
+.help__conservator_desc {
+  margin-bottom: 20px;
+}
+
+.help__conservator_desc:last-child {
+  margin-bottom: 0;
 }
 
 .help__conservator_right {
   display: flex;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.help__conservator_add {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.help__btn {
+  width: 180px;
+  margin-bottom: 90px;
 }
