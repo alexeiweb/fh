@@ -4,31 +4,26 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Friendly House</title>
-
-  <link rel="preload" href="fonts/Comfortaa-Regular.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="fonts/HelveticaNeueCyr-Light.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="fonts/HelveticaNeueCyr-Medium.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="fonts/HelveticaNeueCyr-Roman.woff2" as="font" type="font/woff2" crossorigin>
+  <title>Friendly House</title>  
 
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header class="header">
     <div class="container">
-      <div class="header__nav">
-        <div class="header__burger">
-          <img src="img/burger.png" alt="" class="header__burger_image">
-        </div>
+      <nav class="header__navigation">
+        <button class="header__burger" aria-label="Кнопка меню">
+          <svg width="40" height="21" viewbox="0 0 40 21" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <rect width="40" height="3" rx="1"/>
+            <rect y="9" width="40" height="3" rx="1"/>
+            <rect y="18" width="29" height="3" rx="1"/>
+          </svg>
+        </button>
 
-        <div class="header__logo">
-          <img src="img/logo.png" alt="" class="header__logo_image">
-        </div>
+        <img src="img/logo.png" class="header__logo_image" alt="Логотип приюта для животных Friendly House">
 
-        <div class="header__contact">
-          <a class="header__phone" href="tel:88493003957" >8 (849) 300 - 39 -57</a>
-        </div>
-      </div>
+        <a class="header__phone" href="tel:88493003957" >8 (849) 300 - 39 - 57</a>
+      </nav>
     </div>    
   </header>
 
@@ -50,6 +45,30 @@
   
           <div class="hero__right">
             <img src="img/sara.jpg" alt="" class="hero__image" width="580" height="580">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="project">
+      <div class="container">
+        <h2 class="project__title">Наши проекты</h2>
+
+        <div class="project__wrapper">
+          <div class="project__left">
+            <ul class="project__left_list">
+              <div class="project__left_item">
+                <img src="" alt="" class="project__left_image">
+
+                <h3 class="project__left_title">Новый дом для животных</h3>
+
+                <p class="project__left_description">
+                  Приют появился практически одновременно с созданием Фонда в ...
+                </p>
+
+                <a href="#" class="project__left_link">Подробнее</a>
+              </div>
+            </ul>
           </div>
         </div>
       </div>

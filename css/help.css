@@ -1,8 +1,7 @@
 .help {
   text-align: center;
   background-color: var(--bg-color);
-  counter-reset: my-count;
-  
+  counter-reset: my-count;  
 }
 
 .title-before:before {  
