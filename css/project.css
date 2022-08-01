@@ -1,0 +1,17 @@
+.project__title {
+  margin-bottom: 50px;
+}
+
+.project__wrapper {
+  display: flex;
+}
+
+.project__left_list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.project__left_item {
+  display: flex;
+}
