@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Friendly House</title>  
 
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
   <header class="header">
@@ -317,10 +317,10 @@
         </label>
       </form>    
     </section>
-  </footer>
+  </footer>  
   
-  <div class="overlay" hidden>
-    <div class="burger__menu">
+  <div class="overlay">
+    <div class="burger__menu" hidden>
       <ul class="burger__menu_list">
         <li class="burger__menu_item">О приюте</li>
         <hr class="burger__hr">
@@ -337,6 +337,46 @@
         <li class="burger__menu_item">Контакты</li>
       </ul>
     </div>
+    <div class="modal">
+      <div class="modal__container">
+        <h3 class="modal__title title">Ты можешь помочь нам!</h3>
+    
+        <p class="modal__text">Хочешь забрать питомца, стать волонтером, или опекуном?<br><span>Свяжись с нами!</span></p>
+  
+        <div class="modal__item">
+          <a class="modal__item_phone" href="tel:88493003957">8 (849) 300 - 39 - 57</a>
+  
+          <a class="modal__item_email" href="mailto:FriendlyHouse@gmail.com">FriendlyHouse@gmail.com</a>
+        </div>
+  
+        <p class="modal__text">Или оставь свои контакты и мы сами свяжемся с тобой!</p>
+  
+        <form class="modal__form">
+          <fieldset class="modal__data">
+            <label class="modal__label">Номер телефона
+              <input class="modal__input" type="tel" name="phone">
+            </label>
+      
+            <label class="modal__label">E-mail
+              <input class="modal__input" type="email" name="email">
+            </label>
+          </fieldset>
+  
+          <button class="modal__form_btn" type="submit">
+            <img src="img/footer_btn.png" alt="Изображение кнопки Отправить" class="modal__btn_image">
+  
+            <p class="modal__btn_text">Отправить</p>
+          </button>
+        </form>
+        <button class="modal__close" type="button" aria-label="Закрыть модальное окно">
+          <svg width="22" height="22" viewbox="0 0 22 22" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <rect width="29.1681" height="1.94454" rx="0.972271" transform="matrix(0.707106 -0.707107 0.707106 0.707107 0 20.625)"/>
+            <rect width="29.1681" height="1.94454" rx="0.972271" transform="matrix(0.707106 0.707107 -0.707106 0.707107 1.375 0)"/>
+          </svg>
+        </button> 
+      </div>
+    </div>
+    
   </div>
 </body>
 </html>
