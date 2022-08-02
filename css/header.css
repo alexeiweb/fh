@@ -32,3 +32,47 @@
 .header__burger:hover {
   opacity: 0.6;  
 }
+
+
+@media (max-width: 1280px) { 
+  .container {
+    padding: 0 70px;
+  }
+
+  .header__logo_image {
+    width: 300px;
+  }
+
+  .header__phone {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  
+  .header__phone:before {
+    left: -30px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .container {
+    padding: 0 34px;
+  }
+
+  .header__phone {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding: 0 25px;
+  }
+
+  .header__burger {
+    margin-right: 0;
+  }
+
+  .header__logo_image {
+    width: 161px;
+  }
+}
