@@ -115,3 +115,16 @@ section {
   text-transform: uppercase;
   color: var(--orange-color);
 }
+
+
+@media (max-width: 1280px) { 
+  .container {
+    padding: 0 70px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding: 0 25px;
+  }
+}
