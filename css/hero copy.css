@@ -1,8 +1,6 @@
 .hero__wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  /* grid-template-areas: ; */
+  display: flex;
+  justify-content: space-between;
 }
 
 .hero__left {
@@ -16,8 +14,6 @@
 }
 
 .hero__title {
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
   max-width: 480px;
   font-weight: 300;
   font-size: 40px;
@@ -32,18 +28,11 @@
 }
 
 .hero__btn {
-  width: 180px;
-  grid-column: 1 / 2;
-  grid-row: 2 / 3; 
-}
-
-.hero__wrapper label {
-  grid-column: 2 / 3;
-  grid-row: 1 / 3;
+  width: 180px;  
 }
 
 .hero__btn_image {
-  transition: .3s ease-in-out;  
+  transition: .3s ease-in-out;
 }
 
 .hero__btn_image:hover,
