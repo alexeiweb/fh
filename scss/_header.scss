@@ -23,38 +23,30 @@
     @media (max-width: 1280px) {
       font-size: 18px;
       line-height: 24px;
+
       &:before {
         left: -30px;
       }
     }
-  }
-}
 
-
-@media (max-width: 1280px) { 
-  .container {
-    padding: 0 70px;
+    @media (max-width: 1023px) {
+      display: none;
+    }
   }
 
-  .header__logo_image {
-    width: 300px;
-  }
-    
-  }
-  
+  &__logo {
+    @media (max-width: 1280px) {
+      width: 300px;
+    }
 
-@media (max-width: 1023px) {
-  .header__phone {
-    display: none;
-  }
-}
-
-@media (max-width: 767px) {
-  .header__burger {
-    margin-right: 0;
+    @media (max-width: 767px) {
+      width: 161px;
+    }
   }
 
-  .header__logo_image {
-    width: 161px;
+  &__burger {
+    @media (max-width: 767px) {
+      margin-right: 0;
+    }
   }
 }

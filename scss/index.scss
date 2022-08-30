@@ -1,4 +1,13 @@
 @import '../css/normalize';
-@import '../css/default';
+@import 'var';
+@import '../css/var';
+@import 'fonts';
+@import 'default';
 @import 'header';
+@import 'hero';
+@import 'about';
+@import 'project';
+@import 'help';
 @import 'pets';
+@import '../css/footer';
+@import 'modal';
