@@ -308,12 +308,6 @@ template {
   display: none;
 }
 
-:root {
-  --main-color: #282626;
-  --bg-color: #F2F0F1;
-  --orange-color: #FF8A00;
-}
-
 @font-face {
   font-family: Comfortaa;
   font-weight: 400;
@@ -475,12 +469,6 @@ section {
 .hero__wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  /* grid-template-areas: ; */
-}
-.hero__wrapperlabel {
-  grid-column: 2/3;
-  grid-row: 1/3;
 }
 .hero__left {
   max-width: 480px;
@@ -498,8 +486,7 @@ section {
 }
 .hero__title {
   grid-column: 1/2;
-  grid-row: 1/2;
-  max-width: 480px;
+  max-width: 410px;
   font-weight: 300;
   font-size: 40px;
   line-height: 60px;
@@ -512,12 +499,12 @@ section {
     line-height: 44px;
   }
 }
-.hero__titlespan {
+.hero__title span {
   font-size: 60px;
-  color: var(--orange-color);
+  color: #FF8A00;
 }
 @media (max-width: 1280px) {
-  .hero__titlespan {
+  .hero__title span {
     font-size: 44px;
     line-height: 54px;
   }
@@ -525,7 +512,6 @@ section {
 .hero__btn {
   width: 180px;
   grid-column: 1/2;
-  grid-row: 2/3;
 }
 @media (max-width: 1280px) {
   .hero__btn {
@@ -545,6 +531,10 @@ section {
 }
 .hero__btn_image :focus {
   filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.25));
+}
+.hero__image {
+  grid-column: 2/3;
+  grid-row: 1/3;
 }
 @media (max-width: 1280px) {
   .hero__image {
@@ -840,7 +830,7 @@ section {
 
 .contacts {
   max-width: 780px;
-  background-color: var(--bg-color);
+  background-color: #F2F0F1;
   text-align: center;
   margin: 0 auto;
   padding: 50px 0px;
@@ -851,7 +841,7 @@ section {
   font-weight: 700;
   font-size: 30px;
   line-height: 40px;
-  color: var(--orange-color);
+  color: #FF8A00;
   margin-bottom: 30px;
 }
 
@@ -865,7 +855,7 @@ h3:before .contact__title {
 
 .contacts__text span {
   font-weight: 500;
-  color: var(--orange-color);
+  color: #FF8A00;
 }
 
 .contacts__item {
@@ -942,7 +932,7 @@ h3:before .contact__title {
 
 .contacts__btn_text {
   text-transform: uppercase;
-  color: var(--orange-color);
+  color: #FF8A00;
 }
 
 .contacts__btn_image {
